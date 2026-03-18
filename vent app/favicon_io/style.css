@@ -50,12 +50,17 @@ body {
 }
 
 .logout {
-  margin-top: auto;
-  background: red;
-  color: white;
-  border: none;
-  padding: 10px;
+  background: transparent;
+  color: #ccc;
+  border: 1px solid #444;
+  padding: 8px;
   border-radius: 8px;
+  margin-top: 150px;
+}
+
+.logout:hover {
+  color: white;
+  border-color: #d42b82;
 }
 .overlay {
   position: fixed;
