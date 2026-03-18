@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Whisp Dashboard</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="overlay"></div>
+      <!-- SIDEBAR -->
+
+      <div class="sidebar" id="sidebar">
+        <h2 class="logo">
+          <img
+            src="./favicon_io/favicon-16x16.png"
+            alt="whisp logo"
+          />&nbsp;Whisp
+        </h2>
+
+        <ul>
+          <li class="active">Dashboard</li>
+          <li>Vent Options</li>
+          <li>Payment</li>
+          <li>Settings</li>
+        </ul>
+
+        <button class="logout">Log out</button>
+      </div>
+
+      <!-- MAIN CONTENT -->
+
+      <div class="main">
+        <div class="topbar">
+          <div class="left-topbar">
+            <div class="menu-toggle">☰</div>
+            <input type="text" placeholder="Search for topics" />
+          </div>
+        </div>
+
+        <!-- CATEGORIES -->
+
+        <div class="categories">
+          <button>Relationship</button>
+          <button>Education</button>
+          <button>Economy</button>
+          <button>Travel</button>
+          <button>Work</button>
+          <button>General</button>
+        </div>
+
+        <!-- ACTION CARDS -->
+
+        <h3>What would you like to do?</h3>
+
+        <div class="cards">
+          <div class="card">
+            <h4>Speak</h4>
+            <p>Speak to a compassionate listener</p>
+            <button>Start</button>
+          </div>
+
+          <div class="card">
+            <h4>Music</h4>
+            <p>Listen to calming music</p>
+            <button>Play</button>
+          </div>
+
+          <div class="card">
+            <h4>Yoga</h4>
+            <p>Relax with guided yoga</p>
+            <button>Start</button>
+          </div>
+
+          <div class="card">
+            <h4>I don't know</h4>
+            <p>Choose from recommended vents</p>
+            <button>Explore</button>
+          </div>
+        </div>
+
+        <!-- VENT GROUPS -->
+      </div>
+
+      <!-- RIGHT PANEL -->
+
+      <div class="right">
+        <div class="help">
+          <h4>Feeling depressed?</h4>
+          <p>Suicide is not an option</p>
+          <button class="help-btn">Call Help</button>
+        </div>
+
+        <div class="recommend">
+          <h4>Breathe in Yoga</h4>
+          <p>Release anger and calm your mind</p>
+          <button class="recommend-btn">Start Now</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
